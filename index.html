@@ -12,6 +12,15 @@
     content="width=device-width, initial-scale=1.0"
   />
   <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+  <link
     href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap&subset=latin-ext"
     rel="stylesheet"
   />
@@ -29,28 +38,54 @@
 <body>
 
   <header
-    class="nav container"
+    class="nav"
     id="nav"
   >
-    <nav>
-      <ul>
-        <a href="./#hero">
-          <li>Strona główna</li>
+    <nav class="container">
+      <ul class="nav__links">
+        <a
+          class="nav__link nav__link-menu"
+          href="#"
+        >
+          <li class="nav__link-item">
+            <i class="fas fa-bars"></i>
+          </li>
         </a>
-        <a href="./#offer">
-          <li>Diagnoza i terapia</li>
+        <a
+          class="nav__link nav__link--active"
+          href="./#hero"
+        >
+          <li class="nav__link-item">Strona główna</li>
         </a>
-        <a href="./#therapy">
-          <li>WWR</li>
+        <a
+          class="nav__link"
+          href="./#offer"
+        >
+          <li class="nav__link-item">Diagnoza i terapia</li>
         </a>
-        <a href="./#opinions">
-          <li>Orzecznictwo</li>
+        <a
+          class="nav__link"
+          href="./#about"
+        >
+          <li class="nav__link-item">WWR</li>
         </a>
-        <a href="./#download">
-          <li>Do pobrania</li>
+        <a
+          class="nav__link"
+          href="./#testimonials"
+        >
+          <li class="nav__link-item">Orzecznictwo</li>
         </a>
-        <a href="./#contact">
-          <li>Kontakt</li>
+        <a
+          class="nav__link"
+          href="./#download"
+        >
+          <li class="nav__link-item">Do pobrania</li>
+        </a>
+        <a
+          class="nav__link"
+          href="./#contact"
+        >
+          <li class="nav__link-item">Kontakt</li>
         </a>
       </ul>
     </nav>
@@ -58,7 +93,7 @@
 
   <main>
     <section
-      class="hero container"
+      class="hero"
       id="hero"
     >
       <div>
@@ -171,7 +206,7 @@
     </section>
 
     <section
-      class="contact container"
+      class="contact"
       id="contact"
     >
 
@@ -236,7 +271,7 @@
 
   <footer>
     <section
-      class="copyright container"
+      class="copyright"
       id="copyright"
     >
       &copy; 2023 <a href="https://github.com/substantia-innominata">substantia-innominata</a>
