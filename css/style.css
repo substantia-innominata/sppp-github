@@ -11,6 +11,21 @@ body {
     max-width: 1024px;
 }
 
+.cta-button {
+    min-width: 200px;
+    border: none;
+    color: white;
+    background-color: #10ac84;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #1dd1a1;
+}
+
 .nav {
     position: fixed;
     left: 0;
@@ -72,4 +87,31 @@ body {
     .nav__link-menu {
         display: none;
     }
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    /* margin-top: 50px; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__header {
+    font-size: 2rem;
+}
+
+.hero__sub-header {
+    font-size: 1.5rem;
+}
+
+.hero__info {
+    color: white;
+    text-align: center;
 }
