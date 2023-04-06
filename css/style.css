@@ -115,3 +115,20 @@ body {
     color: white;
     text-align: center;
 }
+
+.offer {
+    display: flex;
+    padding-top: 2rem;
+    flex-wrap: nowrap;
+}
+
+.offer-item {
+    flex-basis: 25%;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.offer-item__icon {
+    font-size: 3rem;
+    color: #10ac84;
+}
