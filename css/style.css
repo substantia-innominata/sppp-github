@@ -264,3 +264,16 @@ body {
 .contact-form__submit:hover {
     background-color: #27ae60;
 }
+
+.copyright {
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    background-color: #16222f;
+}
+
+.copyright__link {
+    color: #10ac84;
+    text-decoration: none;
+}
