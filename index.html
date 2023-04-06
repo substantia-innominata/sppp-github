@@ -26,6 +26,10 @@
   />
   <link
     rel="stylesheet"
+    href="./css/grid.css"
+  />
+  <link
+    rel="stylesheet"
     href="./css/style.css"
   />
   <script
@@ -46,7 +50,7 @@
     class="nav"
     id="nav"
   >
-    <nav class="container">
+    <nav class="container container--fixed">
       <ul class="nav__links">
         <a
           class="nav__link nav__link-menu"
@@ -113,10 +117,10 @@
     </section>
 
     <section
-      class="offer container"
+      class="offer container container--fixed"
       id="offer"
     >
-      <div class="offer-item">
+      <div class="offer-item col xs-12 md-6 lg-3">
         <i class="offer-item__icon fas fa-solid fa-gear"></i>
         <h4>Oferta psychologiczna</h4>
         <p>
@@ -127,7 +131,7 @@
         </p>
       </div>
 
-      <div class="offer-item">
+      <div class="offer-item col xs-12 md-6 lg-3">
         <i class="offer-item__icon fas fa-solid fa-gear"></i>
         <h4>Oferta pedagogiczna</h4>
         <p>
@@ -138,7 +142,7 @@
         </p>
       </div>
 
-      <div class="offer-item">
+      <div class="offer-item col xs-12 md-6 lg-3">
         <i class="offer-item__icon fas fa-solid fa-gear"></i>
         <h4>Oferta logopedyczna</h4>
         <p>
@@ -149,7 +153,7 @@
         </p>
       </div>
 
-      <div class="offer-item">
+      <div class="offer-item col xs-12 md-6 lg-3">
         <i class="offer-item__icon fas fa-solid fa-gear"></i>
         <h4>Pozostałe zajęcia</h4>
         <p>
@@ -166,7 +170,7 @@
       id="therapy"
     >
       <div class="therapy__container container">
-        <div class="therapy__text">
+        <div class="therapy__text col xs-12 md-6">
           <h2 class="therapy__header">
             Wczesne wspomaganie rozwoju
           </h2>
@@ -178,7 +182,7 @@
           </p>
         </div>
 
-        <div class="therapy__image">
+        <div class="therapy__image col xs-12 md-6">
           <div class="therapy__image-container"></div>
         </div>
       </div>
@@ -190,14 +194,13 @@
     >
       <div>
         <h2 class="opinion-header">Orzecznictwo</h2>
-        <p class="opinion-text">
+        <p class="opinion__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Exercitationem, velit. Vel ad minima ipsum, dolorum cupiditate
           corporis id doloribus temporibus eum est voluptates dignissimos
           fugiat quam eos ullam maiores distinctio?
         </p>
         <hr class="opinion__rule" />
-        <img />
       </div>
 
     </section>
@@ -206,11 +209,11 @@
       class="download"
       id="download"
     >
-      <div class="container">
+      <div>
         <h2 class="download__header">
           Dokumenty do pobrania
         </h2>
-        <p class="download__description">
+        <p class="download__text container">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
           quos, distinctio iusto debitis porro id doloribus error corrupti
           iure quasi corporis ipsam quam possimus vel rerum laudantium hic
@@ -223,8 +226,8 @@
       class="contact"
       id="contact"
     >
-      <div class="contact__container container">
-        <div class="contact__text">
+      <div class="contact__container container container--fixed">
+        <div class="contact__text col xs-12 md-6">
           <h2 class="contact__header">Skontaktuj się z nami</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -241,10 +244,10 @@
           </p>
         </div>
 
-        <div class="contact__form">
+        <div class="contact__form col xs-12 md-6">
           <!--  -->
           <form
-            class=""
+            class="contact-form"
             action=""
             method="POST"
           >
