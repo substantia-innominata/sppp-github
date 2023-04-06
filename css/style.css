@@ -170,10 +170,19 @@ body {
     text-align: center;
 }
 
-.opinion__text {}
-
 .opinion__rule {
     margin: 2rem auto;
     width: 30%;
     min-width: 200px;
+}
+
+.download {
+    padding: 3rem 0;
+    color: white;
+    background-color: #10ac84;
+}
+
+.download__header {
+    margin-top: 0;
+    text-align: center;
 }
