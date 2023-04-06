@@ -223,63 +223,64 @@
       class="contact"
       id="contact"
     >
+      <div class="contact__container container">
+        <div class="contact__text">
+          <h2 class="contact__header">Skontaktuj się z nami</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Blanditiis, tenetur magni. Esse provident facere voluptates
+            numquam ullam? Excepturi, perferendis fugit quae earum dolore
+            velit modi, sint nemo voluptatum laudantium cupiditate.
+          </p>
+          <hr class="contact__rule" />
+          <p class="contact__address-line">
+            <i class="contact__address-icon fas fa-map-marker"></i>Adres: ul. T. Kościuszki 10, 32-050 Skawina
+          </p>
+          <p class="contact__address-line">
+            <i class="contact__address-icon fas fa-phone"></i>Telefon: 12 276 38 40
+          </p>
+        </div>
 
-      <div>
-        <h2>Skontaktuj się z nami</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Blanditiis, tenetur magni. Esse provident facere voluptates
-          numquam ullam? Excepturi, perferendis fugit quae earum dolore
-          velit modi, sint nemo voluptatum laudantium cupiditate.
-        </p>
-        <hr />
-        <p>Adres
-        </p>
-        <p>Telefon
-          XXX-XXX-XXX
-        </p>
-      </div>
-
-      <div>
-        <!--  -->
-        <form
-          class=""
-          action=""
-          method="POST"
-        >
-          <div>
+        <div class="contact__form">
+          <!--  -->
+          <form
+            class=""
+            action=""
+            method="POST"
+          >
             <div>
-              <input
-                class=""
-                name="email"
-                type="email"
-                placeholder="E-mail"
-              />
+              <div>
+                <input
+                  class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
+                  name="email"
+                  type="email"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div>
+                <input
+                  class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
+                  name="name"
+                  type="text"
+                  placeholder="Imię i nazwisko"
+                />
+              </div>
             </div>
             <div>
-              <input
-                class=""
-                name="name"
-                type="text"
-                placeholder="Imię i nazwisko"
-              />
+              <textarea
+                class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
+                name="message"
+                rows="4"
+                placeholder="Treść wiadomości"
+              ></textarea>
             </div>
-          </div>
-          <div>
-            <textarea
-              class=""
-              name="message"
-              rows="4"
-              placeholder="Treść wiadomości"
-            ></textarea>
-          </div>
-          <div>
-            <button>
-              Wyślij
-            </button>
-          </div>
-        </form>
-      </div>
+            <div>
+              <button class="contact-form__submit contact-form__submit--fullwidth">
+                Wyślij
+              </button>
+            </div>
+          </form>
+        </div>
     </section>
   </main>
 

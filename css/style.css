@@ -186,3 +186,81 @@ body {
     margin-top: 0;
     text-align: center;
 }
+
+
+.contact {
+    padding: 3rem 0;
+    color: white;
+    background-color: #636e72;
+}
+
+.contact__container {
+    display: flex;
+}
+
+.contact__text,
+.contact__form {
+    flex-basis: 50%;
+    padding: 0 2rem;
+}
+
+.contact__header {
+    margin-top: 0;
+}
+
+.contact__rule {
+    width: 20%;
+    min-width: 100px;
+    margin: 0;
+}
+
+.contact__address-icon {
+    width: 1rem;
+    text-align: center;
+    margin-right: 0.25rem;
+}
+
+.contact-form {}
+
+.contact-form__input {
+    color: white;
+    min-height: 2rem;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.contact-form__input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-form__input--fullwidth {
+    width: 100%;
+}
+
+.contact-form__input--transparent {
+    background-color: transparent;
+}
+
+.contact-form__submit {
+    min-width: 100px;
+    border: none;
+    background-color: #2ecc71;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.contact-form__submit--fullwidth {
+    width: 100%;
+}
+
+.contact-form__submit:hover {
+    background-color: #27ae60;
+}
