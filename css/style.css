@@ -17,6 +17,7 @@ body {
     color: white;
     background-color: #10ac84;
     font-size: 1.2rem;
+    border-radius: 4px;
     padding: 0.8rem;
     cursor: pointer;
     transition: background-color 0.5s ease-in-out;
@@ -246,7 +247,7 @@ body {
 .contact-form__submit {
     min-width: 100px;
     border: none;
-    background-color: #2ecc71;
+    background-color: #10ac84;
     padding: 0.5rem;
     border-radius: 4px;
     color: white;
@@ -260,7 +261,7 @@ body {
 }
 
 .contact-form__submit:hover {
-    background-color: #27ae60;
+    background-color: #1dd1a1;
 }
 
 .copyright {
