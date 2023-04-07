@@ -1,6 +1,6 @@
 ## description
 
-The project has been created to learn HTML and CCS in practice. It is still at the stage of developing and constant improving in order to replace the old website (of my current workplace) in future.
+The project has been created to learn HTML and CCS in practice. It is still at the stage of developing and constant improving in order to replace the old website (of my current workplace) in the future.
 
 ## requirements
 
